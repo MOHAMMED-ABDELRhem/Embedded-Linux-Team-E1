@@ -3,17 +3,13 @@
 Letter = input("Please enter letter : ")
 
 Vowels = ('a','A','e','E','i','I','o','O','u','U')
-Flag = 1
 
-for i in Vowels:
+# convert list to set
+S_Vowels = set(Vowels)
 
-    if Letter == i:
-        print("Letter " + Letter + " is vowel")
-        Flag = 0
-        break
-
-    else:
-        pass
-
-if Flag == 1:
+if Letter in S_Vowels:
+    print("Letter " + Letter + " is vowel")
+else:
     print("Letter " + Letter + " is  not vowel")
+        
+
