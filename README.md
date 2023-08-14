@@ -1,5 +1,5 @@
 # Embedded-Linux-Team-E1
-This repo Contain tasks for team A2 at The Embedded Linux Diploma 
+This repo Contain tasks for Team E1 at The Embedded Linux Diploma 
 
 
 #Instructor : Moatsem El Sayed
